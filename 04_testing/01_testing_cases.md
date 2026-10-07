@@ -20,15 +20,19 @@ Enter:
 - Direct expenses: `15`
 
 **Expected labor cost and total:**
+$135
 
 **Evidence (paste your terminal run):**
-
+Client: Alex Taylor
+Labor cost: $120.00
+Direct expenses: $15.00
+Total estimate: $135.00
 ```text
 
 ```
 
 **Pass / Fail and why:**
-
+Pass because, correctlly estimated costs in the proper format
 ## Case 2: Partial hours and text cleanup
 
 Enter:
@@ -41,13 +45,17 @@ Enter:
 The displayed name should be `Alex Taylor` without surrounding spaces.
 
 **Expected labor cost and total:**
+$75
 
 **Evidence (paste your terminal run):**
-
+Client: Alex Taylor
+Labor cost: $75.00
+Direct expenses: $0.00
+Total estimate: $75.00
 ```text
 
 ```
 
 **Pass / Fail and why:**
-
+Pass because it corrected improper punctuation aswell as correctlly estimated costs in the proper format
 If a case fails, fix the program and add evidence of the rerun below that case.
